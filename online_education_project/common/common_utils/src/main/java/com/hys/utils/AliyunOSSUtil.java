@@ -39,7 +39,6 @@ public class AliyunOSSUtil {
 					
 					// 定义输入上传的文件
 					InputStream inputStream){
-		
 		// 创建 OSSClient 实例。 
 		OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
 		
